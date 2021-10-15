@@ -1,0 +1,80 @@
+{
+  "name": "Salade nordique au saumon fumé",
+  "description": "Pommes de terre et saumon fumé fonctionnent toujours bien ensemble, surtout avec une bonne sauce pour relever le tout !",
+  "times": {
+    "ready": 40,
+    "work": 20
+  },
+  "nbPeople": 2,
+  "ingredients": [
+    {
+      "id": "smoked-salmon",
+      "value": 70,
+      "unit": "g",
+      "label": "70 g de saumon fumé (ou truite fumée)"
+    },
+    {
+      "id": "potatoe",
+      "value": 400,
+      "unit": "g",
+      "label": "400 g de pommes de terre à chair ferme"
+    },
+    {
+      "id": "lambs-lettuce",
+      "value": 100,
+      "unit": "g",
+      "label": "100 g de mâche"
+    },
+    {
+      "id": "cottage-cheese",
+      "value": 150,
+      "unit": "g",
+      "label": "150 g de fromage blanc"
+    },
+    {
+      "id": "shallot",
+      "value": 1,
+      "unit": "unit",
+      "label": "1 petite échalote"
+    },
+    {
+      "id": "pickle",
+      "value": 4,
+      "unit": "unit",
+      "label": "4 cornichons"
+    },
+    {
+      "id": "dill",
+      "value": 1,
+      "unit": "tablespoon",
+      "label": "1 c. à soupe d'aneth haché (ici surgelé)"
+    }
+  ],
+  "instructions": [
+    {
+      "label": "Peler les pommes de terre. Les mettre dans une casserole avec du gros sel et couvrir d'eau froide."
+    },
+    {
+      "label": "Porter à ébullition et laisser cuire (environ 30 min)."
+    },
+    {
+      "label": "Pendant ce temps, hacher l'échalote et les cornichons le plus finement possible."
+    },
+    {
+      "label": "Les mettre dans un bol avec le fromage blanc, l'aneth haché et une pincée de sel. Mélanger, goûter et assaisonner à nouveau si besoin."
+    },
+    {
+      "label": "Lorsque les pommes de terre sont cuites, les refroidir dans l'eau froide et les couper en quartiers."
+    },
+    {
+      "label": "Répartir tous les ingrédients dans des assiettes et arroser de sauce."
+    }
+  ],
+  "comments": [
+    "Cette sauce blanche bien relevée est une déclinaison de la sauce tartare vous pouvez aussi l'adapter à votre goût en y ajoutant du citron, du piment, des câpres, ou d'autres herbes comme de la ciboulette et du persil."
+  ],
+  "tags": [
+    "Salade",
+    "Poisson"
+  ]
+}

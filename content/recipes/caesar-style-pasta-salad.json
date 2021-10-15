@@ -1,0 +1,102 @@
+{
+  "name": "Salade de pâtes façon césar",
+  "description": "Le secret d'une bonne salade César, c'est surtout sa sauce bien corcée. Voici ma version !",
+  "times": {
+    "ready": 40,
+    "work": 15
+  },
+  "nbPeople": 2,
+  "ingredients": [
+    {
+      "id": "green-salad",
+      "value": 1,
+      "unit": "unit",
+      "label": "De la salade verte"
+    },
+    {
+      "id": "pasta-fusilli",
+      "value": 150,
+      "unit": "g",
+      "label": "150 g de pâtes (ici des fusilli)"
+    },
+    {
+      "id": "bread",
+      "value": 1,
+      "unit": "slice",
+      "label": "1 tranche de pain épaisse"
+    },
+    {
+      "id": "cherry-tomato",
+      "value": 10,
+      "unit": "unit",
+      "label": "10 tomates cerises"
+    },
+    {
+      "id": "egg",
+      "value": 2,
+      "unit": "unit",
+      "label": "2 oeufs"
+    },
+    {
+      "id": "parmesan",
+      "value": 30,
+      "unit": "g",
+      "label": "30 g de parmesan"
+    },
+    {
+      "id": "cottage-cheese",
+      "value": 2,
+      "unit": "tablespoon",
+      "label": "2 c. à s. de fromage blanc",
+      "group": "Pour la sauce"
+    },
+    {
+      "id": "mayonnaise",
+      "value": 2,
+      "unit": "tablespoon",
+      "label": "2 c. à s. de mayonnaise",
+      "group": "Pour la sauce"
+    },
+    {
+      "id": "anchovy",
+      "value": 2,
+      "unit": "unit",
+      "label": "2 filets d'anchois",
+      "group": "Pour la sauce"
+    },
+    {
+      "id": "clove-garlic",
+      "value": 1,
+      "unit": "unit",
+      "label": "1 petite gousse d'ail",
+      "group": "Pour la sauce"
+    }
+  ],
+  "instructions": [
+    {
+      "label": "Faire cuire les oeufs (mollets ou durs, au choix)."
+    },
+    {
+      "label": "Faire cuire les pâtes pour les passer sous l'eau froide et bien les égoutter."
+    },
+    {
+      "label": "Mixer ensemble les ingrédients de la sauce."
+    },
+    {
+      "label": "Couper le pain en cubes et les faire griller dans une poêle avec un peu d'huile."
+    },
+    {
+      "label": "Couper la salade et les tomates. Faire des copeaux de parmesan à l'aide d'un économe."
+    },
+    {
+      "label": "Répartir tous les ingrédients dans des assiettes et arroser de sauce."
+    }
+  ],
+  "comments": [
+    "Cette sauce est forte en ail, mais vous pouvez bien sûr l'enlever ou en mettre moins. On peut aussi ajouter du jus de citron pour apporter de la fraîcheur."
+  ],
+  "tags": [
+    "Salade",
+    "Coup de coeur"
+  ]
+}

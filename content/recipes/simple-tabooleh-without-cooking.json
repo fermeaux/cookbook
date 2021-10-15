@@ -1,0 +1,77 @@
+{
+  "name": "Taboulé tout simple sans cuisson",
+  "description": "Une de mes recettes fétiches, que je fais tout le temps dès que l'été arrive ! Zéro cuisson, en 15 minutes c'est déjà prêt !",
+  "times": {
+    "ready": 15,
+    "work": 10
+  },
+  "nbPeople": 2,
+  "ingredients": [
+    {
+      "id": "couscous",
+      "value": 120,
+      "unit": "g",
+      "label": "120 g de couscous"
+    },
+    {
+      "id": "tomato",
+      "value": 2,
+      "unit": "unit",
+      "label": "2 petites tomates"
+    },
+    {
+      "id": "lemon",
+      "value": 1,
+      "unit": "unit",
+      "label": "1 citron"
+    },
+    {
+      "id": "cucumber",
+      "value": 0.33,
+      "unit": "unit",
+      "label": "1/3 de concombre"
+    },
+    {
+      "id": "cebette",
+      "value": 1,
+      "unit": "unit",
+      "label": "1 cébette ou oignon nouveau (sinon de l'oignon rouge)"
+    },
+    {
+      "id": "mint",
+      "value": 1,
+      "unit": "unit",
+      "label": "Option : de la menthe"
+    }
+  ],
+  "instructions": [
+    {
+      "label": "Mesurer le coucous et le verser dans un saladier avec le même volume d'eau bouillante et un peu de sel."
+    },
+    {
+      "label": "Laisser reposer 5 minutes (l'eau va être absorbée) puis gratter avec une fourchette pour qu'il refroidisse."
+    },
+    {
+      "label": "Pendant, ce temps couper tous les légumes en petits morceaux."
+    },
+    {
+      "label": "Les ajouter au couscous refroidi."
+    },
+    {
+      "label": "Assaisonner avec du sel, du jus de citron et un bon filet d'huile d'olive."
+    },
+    {
+      "label": "Mélanger le tout (si possible, laisser reposer au frigo, c'est encore meilleur frais)."
+    }
+  ],
+  "comments": [
+    "Le couscous est déjà précuit, il suffit de le faire gonfler dans de l'eau et il est prêt à être dégusté. Pratique !",
+    "En rayon, il faut bien prendre le paquet avec marqué \"couscous\" et non pas \"semoule\" (cette dernière a une texture collante et est plutôt utilisée pour les desserts)",
+    "La cébette (comme l'oignon nouveau) est parfaite en salade car elle a un goût d'oignon très doux et délicat, proche de la ciboulette. Tout se mange, le blanc comme le vert"
+  ],
+  "tags": [
+    "Salade",
+    "Simple",
+    "Rapide"
+  ]
+}

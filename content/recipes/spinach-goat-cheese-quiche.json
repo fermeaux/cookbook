@@ -1,0 +1,67 @@
+{
+  "name": "Quiche chèvre-épinards",
+  "description": "Celle-là, tout le monde la connaît. Voici ma version express !",
+  "times": {
+    "ready": 60,
+    "work": 15
+  },
+  "nbPeople": 4,
+  "ingredients": [
+    {
+      "id": "pastry",
+      "value": 1,
+      "unit": "unit",
+      "label": "1 pâte à tarte"
+    },
+    {
+      "id": "spinach",
+      "value": 400,
+      "unit": "g",
+      "label": "400 g d'épinards surgelés (soit 200 g égouttés)"
+    },
+    {
+      "id": "egg",
+      "value": 3,
+      "unit": "unit",
+      "label": "3 oeufs"
+    },
+    {
+      "id": "cream",
+      "value": 15,
+      "unit": "cl",
+      "label": "15 cl de crème et/ou de lait (soit 150 g)"
+    },
+    {
+      "id": "goat-cheese",
+      "value": 150,
+      "unit": "g",
+      "label": "150 g de bûche de chèvre"
+    }
+  ],
+  "instructions": [
+    {
+      "label": "Faire décongeler les épinards (ici 3 min au micro-ondes)."
+    },
+    {
+      "label": "Battre les oeufs avec la crème, la moitié du fromage, du sel et du poivre."
+    },
+    {
+      "label": "Dérouler la pâte dans un moule à tarte et la piquer avec une fourchette."
+    },
+    {
+      "label": "Essorer les épinards en les pressant pour enlever un maximum d'eau, puis les répartir sur la pâte."
+    },
+    {
+      "label": "Recouvrir avec le mélange oeufs / crème / fromage."
+    },
+    {
+      "label": "Déposer par-dessus le reste du fromage coupé en rondelles et mettre au four, environ 45 min à 180 °C."
+    }
+  ],
+  "comments": [
+    "J'utilise des épinards surgelés car c'est pratique, mais on peut évidemment faire cette tarte avec des épinards frais, qu'il faudra simplement cuire au préalable."
+  ],
+  "tags": [
+    "Quiche"
+  ]
+}
