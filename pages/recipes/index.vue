@@ -9,7 +9,7 @@
 
 <script lang="ts">
 import Vue from "vue";
-import { Recipe, RecipeContent } from "~/types/Recipe";
+import { Recipe, RecipeContent } from "~/types/recipe";
 
 export default Vue.extend({
   async asyncData({ $content }) {

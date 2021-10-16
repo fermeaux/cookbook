@@ -29,7 +29,7 @@
 
 <script lang="ts">
 import Vue from "vue";
-import { RecipeContent } from "~/types/Recipe";
+import { RecipeContent } from "~/types/recipe";
 
 export default Vue.extend({
   async asyncData({ $content, route }) {

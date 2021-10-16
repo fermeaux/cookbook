@@ -2,6 +2,7 @@
   <NuxtLink :to="`/recipes/${recipe.slug}`">
     <article
       class="
+        h-full
         flex flex-col
         shadow-xl
         hover:shadow-2xl
@@ -10,24 +11,28 @@
         ease-in-out
       "
     >
-      <img
-        :src="`/recipes/previews/${recipe.slug}.jpg`"
-        :alt="`${recipe.name} preview`"
-        class="h-48 object-cover"
-      />
-      <div class="py-4">
-        <div class="px-8 flex items-center justify-between mb-4 h-full">
-          <label class="cursor-pointer font-medium text-xl">{{
-            recipe.name
-          }}</label>
-          <span class="font-medium flex items-center text-lg">
-            <fa-icon icon="clock" class="text-2xl mr-2" />
-            {{ recipe.times.ready }}
-          </span>
+      <div class="h-48 w-full">
+        <img
+          :src="`/recipes/previews/${recipe.slug}.jpg`"
+          :alt="`${recipe.name} preview`"
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <div class="py-4 h-full flex flex-col justify-between">
+        <div>
+          <div class="px-8 flex items-center justify-between mb-4">
+            <label class="cursor-pointer font-medium text-xl">{{
+              recipe.name
+            }}</label>
+            <span class="font-medium flex items-center text-lg">
+              <fa-icon icon="clock" class="text-2xl mr-2" />
+              {{ recipe.times.ready }}
+            </span>
+          </div>
+          <p class="px-8 mb-4 font-light text-gray-500">
+            {{ recipe.description }}
+          </p>
         </div>
-        <p class="px-8 mb-4 min-h-20 font-light text-gray-500">
-          {{ recipe.description }}
-        </p>
         <div class="flex overflow-x-scroll tags">
           <span
             v-for="(tag, index) in recipe.tags"
@@ -53,7 +58,7 @@
 
 <script lang="ts">
 import Vue, { PropType } from "vue";
-import { RecipeContent } from "~/types/Recipe";
+import { RecipeContent } from "~/types/recipe";
 
 export default Vue.extend({
   props: {
